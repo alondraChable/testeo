@@ -1,0 +1,92 @@
+header {
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-right: 40px;
+  margin-left: 210px;
+  letter-spacing: 10px;
+  color: #BEA34D;
+  text-decoration: inherit;
+}
+
+nav a {
+  padding-right: 60px;
+  font-size: 20px;
+  text-decoration: inherit;
+  color: black;
+}
+
+.nav-login {
+  text-decoration: none;
+  color: rgb(79, 77, 77);
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.btn-trynow {
+  margin-right: 210px;
+}
+
+.btn-trynow button {
+  background-color: #BEA34D;
+  border: none;
+  border-radius: 35px;
+  width: 231px;
+  height: 47px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-trynow button:hover {
+  background-color: #94844e;
+}
+
+section {
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.imagen {
+  text-align: right;
+  width: 100%;
+}
+
+.imagen img {
+  max-width: 100%;
+  height: auto;
+  max-height: 875px;
+  clip-path: polygon(32% 0, 100% 0, 100% 100%, 0 100%);
+  margin-top: 100px;
+  float: right;
+}
+
+.cuadro {
+  margin-top: 180px;
+  background-color: aqua;
+  float: left;
+  width: 50%;
+
+  clip-path: polygon(32% 0, 0% 0, 0% 100%, 100% 100%);
+
+}

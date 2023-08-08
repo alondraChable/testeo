@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-wrapper settings-container">
+        <div class="container">
+            <div class="section">
+                <h1>Configura tu cuenta</h1>
+                <p class="text">Agrega tu nombre y algunos detalles para comenzar</p>
+            </div>
+            <div class="section3">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="nombre" class="label">Nombre:</label>
+                            <input type="text" class="form-control custom-input custom-width" id="nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="apellidos" class="label">Apellidos:</label>
+                            <input type="text" class="form-control custom-input custom-width" id="apellidos" placeholder="Ingrese sus apellidos">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="nombreDespacho" class="label">Nombre de tu despacho:</label>
+                            <input type="text" class="form-control custom-input custom-width" id="nombreDespacho" placeholder="Ingrese el nombre de su despacho">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="tipoDespacho" class="label">Selecciona tipo de despacho:</label>
+                            <select class="form-select custom-select custom-width" id="tipoDespacho">
+                                <option value="" class="select-text">Selecciona de la lista</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="lugarLitiga" class="label">Lugar donde litiga:</label>
+                            <select class="form-select custom-select custom-width" id="lugarLitiga">
+                                <option value="" class="custom-width">Selecciona de la lista</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                
+                
+            </div>
+            <div class="section2">
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Acepto las <a href="condiciones"
+                            class="text-label">Condiciones del servicio</a> y las <a href="politicas"
+                            class="text-label"> Politicas de Privacidad</a> de Legalet</label>
+                </div>
+                <div class="button">
+                    <button type="submit" class="btn btn-purple btn-custom"><a class="button-link"
+                            routerLink="/companyConfiguration">Continuar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

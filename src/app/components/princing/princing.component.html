@@ -1,0 +1,15 @@
+<div class="button-wrapper" style="padding-top: 150px;">
+  <button type="button" class="btn btn-1" (click)="cambiarTipoPrecio(false)">Mensual</button>
+  <button type="button" class="btn btn-2" (click)="cambiarTipoPrecio(true)">Anual</button>
+  
+</div>
+
+<div *ngIf="esAnual">
+    <app-anual-pricing></app-anual-pricing>
+
+</div>
+
+<div *ngIf="!esAnual">
+  <app-month-pricing></app-month-pricing>
+
+</div>

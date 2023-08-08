@@ -1,0 +1,35 @@
+<body>
+    <div class="container-wrapper">
+      <div class="container">
+        <div class="button-wrapper">
+            <div class="button-content">
+              <div class="button-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <div class="button-text">
+                Prueba gratis por 30 días
+              </div>
+            </div>
+          </div>
+        <h1 class="centered">Ingresa tus datos para comenzar</h1>
+        <p class="lead centered">¿Ya estás registrado? <a routerLink="/login">Ingresa</a> a tu cuenta</p>
+  
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control custom-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese tu email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Teléfono de WhatsApp</label>
+            <input type="tel" class="form-control custom-input" id="exampleInputPassword1" placeholder="Ingrese tu teléfono">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control custom-input" id="exampleInputPassword1" placeholder="Define tu contraseña">
+          </div>
+          <button type="submit" class="btn btn-purple btn-block btn-custom"><a class="button-link" routerLink="/bienvenida">¡Comenzar demo!</a></button>
+          <div id="emailHelp" class="form-text">No necesitas tarjeta de crédito para comenzar</div>
+        </form>
+      </div>
+    </div>
+  </body>

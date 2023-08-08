@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-wrapper settings-container">
+        <div class="container">
+            <div class="section">
+                <div class="button-wrapper">
+                    <button type="button" class="btn btn-1" disabled>Iniciar sesión</button>
+                    <button type="button" class="btn btn-2"><a routerLink="/registro">Registrarse</a></button>
+                </div>
+                <div class="text">
+                  <p>Inicia con:</p>
+              </div>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-google"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="text">
+                  <p>o</p>
+              </div>
+            </div>
+            <div class="section2">
+                <form>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre o Correo Electrónico">
+                    </div>
+                    <div class="mb-3">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                    </div>
+                   <section class="checkbox-label">
+                    <div class="mb-3 form-check custom-checkbox">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                    <a routerLink="/singUp" class="additional-text">¿Olvidaste tu contraseña?</a>
+                  </div>
+                   </section>
+                    <button type="submit" class="btn btn-beige btn-block"><a class="button-link">INICIAR</a></button>
+                    <p class="additional-p">No tienes cuenta?<a routerLink="/registro" class="additional-text2"> Registrate</a>
+                    </p>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

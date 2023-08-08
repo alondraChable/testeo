@@ -1,0 +1,83 @@
+.custom-input {
+    width: 100%;
+    font-weight: 400;
+  }
+  .btn-custom {
+    width: 100%;
+  }
+  .container-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+
+  }
+  .container {
+    max-width: 400px;
+  }
+  .centered {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .form-label{
+    font-weight: 600;
+  }
+
+  .lead{
+    font-weight: 400;
+  }
+
+  .btn-purple {
+    background-color: #E5BE99;
+    border-color: #E5BE99;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .form-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .button-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .button-content {
+    display: flex;
+    align-items: center;
+    background-color: #FFEADA;
+    padding: 10px;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .button-icon {
+    margin-right: 10px;
+  }
+  
+  .button-text {
+    color: #7F675D;
+    font-weight: 500;
+    font-size: small;
+  }
+  
+  .fa-lightbulb {
+    color: #7F675D;
+  }
+
+  .button-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .button-link:hover {
+    text-decoration: none;
+    color: white;
+  }

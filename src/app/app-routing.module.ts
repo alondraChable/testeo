@@ -19,6 +19,9 @@ import { VerificationComponent } from './components/verification/verification.co
 import { AnualPricingComponent } from './components/anual-pricing/anual-pricing.component';
 import { AreasLegalesComponent } from './components/areas-legales/areas-legales.component';
 import { MonthPricingComponent } from './components/month-pricing/month-pricing.component';
+import { PaymentComponent } from './components/payment/payment.component';
+import { PricingExtendedComponent } from './components/pricing-extended/pricing-extended.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent }, // Ruta principal
@@ -35,10 +38,13 @@ const routes: Routes = [
   { path: 'features', component: FeaturesComponent },
   { path: 'preregistro', component: PreRegistroComponent },
   { path: 'pricing', component: PrincingComponent },
+  {path: 'pricing-ext', component: PricingExtendedComponent},
   {path: 'verification', component: VerificationComponent},
   {path: 'anual-pricing', component: AnualPricingComponent},
   {path: 'month-pricing', component: MonthPricingComponent},
   {path: 'areas', component: AreasLegalesComponent},
+  {path: 'payment', component: PaymentComponent},
+  {path: 'testimonials', component: TestimonialsComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 

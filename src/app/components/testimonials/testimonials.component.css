@@ -1,0 +1,60 @@
+
+.slider-wrapper{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(235,243,255,1) 94%, rgba(229,246,255,1) 100%);    
+    min-height: 100vh;
+    padding-top: 100px;
+}
+.slide-container{
+    max-width: 80%;
+    padding: 40px 0;
+   
+}
+.slide-content{
+    height: 400px;
+     margin: 0 40px;
+     
+}
+.card
+{
+    width: 100%;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+.card-content{
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 25px;
+}
+.description{
+    font-size: 20px;
+    color: #707070;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.rating
+{
+    padding-left: 10%;
+}
+.fa-star{
+    padding-left: 5px;
+    font-size: 20px;
+    color: yellow;
+    padding-bottom: 20px;
+
+}

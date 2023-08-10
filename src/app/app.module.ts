@@ -17,7 +17,6 @@ import { PlanesComponent } from './components/planes/planes.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { FuntionsComponent } from './components/funtions/funtions.component';
-import { CommentsComponent } from './components/comments/comments.component';
 import { PreRegistroComponent } from './components/pre-registro/pre-registro.component';
 import { AreasLegalesComponent } from './components/areas-legales/areas-legales.component';
 import { PrincingComponent } from './components/princing/princing.component';
@@ -25,6 +24,8 @@ import { VerificationComponent } from './components/verification/verification.co
 import { AnualPricingComponent } from './components/anual-pricing/anual-pricing.component';
 import { MonthPricingComponent } from './components/month-pricing/month-pricing.component';
 import { PricingExtendedComponent } from './components/pricing-extended/pricing-extended.component';
+import { PaymentComponent } from './components/payment/payment.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -43,14 +44,15 @@ import { PricingExtendedComponent } from './components/pricing-extended/pricing-
     InicioComponent,
     FeaturesComponent,
     FuntionsComponent,
-    CommentsComponent,
     PreRegistroComponent,
     AreasLegalesComponent,
     PrincingComponent,
     VerificationComponent,
     AnualPricingComponent,
     MonthPricingComponent,
-    PricingExtendedComponent
+    PricingExtendedComponent,
+    PaymentComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,24 +1,27 @@
 .features-wrap {
     display: flex;
-    background-color: #F4F7FC;
     padding-top: 130px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 6%, rgba(217, 227, 242, 1) 100%, rgba(207, 219, 238, 1) 100%);
 }
 
 .feature1 {
     flex: 1;
     margin-left: 100px;
 }
-.first-text{
+
+.first-text {
     font-weight: 800;
     font-size: 15px;
 }
 
-.feature1 p{
+.feature1 p {
     font-size: 35px;
     justify-content: center;
     padding-bottom: 35px;
 }
-.feature1 h1{
+
+.feature1 h1 {
     font-size: 50px;
     justify-content: center;
     font-weight: 800;
@@ -29,9 +32,9 @@
     padding: 20px;
     text-align: right;
     margin-right: 100px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 100px;
 }
 
@@ -39,12 +42,14 @@
     max-width: 75%;
     height: auto;
 }
+
 .features-wrap2 {
     display: flex;
-    background-color: #F4F7FC;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 6%, rgba(217, 227, 242, 1) 100%, rgba(207, 219, 238, 1) 100%);
     padding-right: 100px;
     padding-top: 80px;
-    
+
 }
 
 .feature2 {
@@ -52,17 +57,19 @@
     margin-left: 100px;
     width: 60%;
 }
-.first-text2{
+
+.first-text2 {
     padding-top: 20px;
     font-weight: 800;
     font-size: 15px;
 }
 
-.feature2 p{
+.feature2 p {
     font-size: 35px;
     justify-content: center;
 }
-.feature2 h1{
+
+.feature2 h1 {
     font-size: 50px;
     justify-content: center;
     font-weight: 800;
@@ -73,9 +80,9 @@
     padding: 20px;
     text-align: left;
     margin-right: 100px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 100px;
 }
 
@@ -83,10 +90,12 @@
     max-width: 75%;
     height: auto;
 }
+
 .features-wrap3 {
     display: flex;
-    background-color: #F4F7FC;
     padding-top: 130px;
     padding-bottom: 50px;
-}
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 6%, rgba(217, 227, 242, 1) 100%, rgba(207, 219, 238, 1) 100%);
 
+}
